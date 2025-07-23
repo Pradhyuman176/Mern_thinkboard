@@ -6,12 +6,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm install --prefix backend && npm install --frontend && npm run build --prefix frontend",
+    "start":"npm run start --prefix backend"
   },
   "keywords": [
     "1234"
   ],
   "author": "parth",
   "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pradhyuman176/Mern_thinkboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pradhyuman176/Mern_thinkboard/issues"
+  },
+  "homepage": "https://github.com/Pradhyuman176/Mern_thinkboard#readme",
   "description": ""
 }
