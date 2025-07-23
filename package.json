@@ -1,20 +1,23 @@
 {
-  "dependencies": {
-    "express": "^5.1.0"
-  },
   "name": "cls",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --frontend && npm run build --prefix frontend",
-    "start":"npm run start --prefix backend"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "20.x"
   },
   "keywords": [
     "1234"
   ],
   "author": "parth",
   "license": "ISC",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pradhyuman176/Mern_thinkboard.git"
